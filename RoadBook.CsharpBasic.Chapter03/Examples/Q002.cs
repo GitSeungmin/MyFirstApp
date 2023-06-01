@@ -26,14 +26,19 @@ namespace RoadBook.CsharpBasic.Chapter03.Examples
                 Console.WriteLine("B학점 입니다.");
             }
 
-            else if (average < 80 && average >= 70)
+            else if (average < 80 && average > 70)
             {
                 Console.WriteLine("C학점 입니다.");
             }
 
-            else
+            else if (average < 70 && average >= 0)
             {
                 Console.WriteLine("F학점 입니다.");
+            }
+
+            else
+            {
+                Console.WriteLine("입력이 잘못되었습니다.");
             }
         }
     }
