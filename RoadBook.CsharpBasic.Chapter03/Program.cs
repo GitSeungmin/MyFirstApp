@@ -10,8 +10,8 @@ namespace RoadBook.CsharpBasic.Chapter03
     {
         static void Main(string[] args)
         {
-            Examples.Ex001 ex001 = new Examples.Ex001();
-            ex001.Run();
+            Examples.Q002 q002 = new Examples.Q002();
+            q002.Run();
         }
     }
 }

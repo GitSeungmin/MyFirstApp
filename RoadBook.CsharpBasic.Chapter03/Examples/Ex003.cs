@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace RoadBook.CsharpBasic.Chapter03.Examples
 {
-    internal class Ex002
+    internal class Ex003
     {
-       public void Run()
+        public void Run()
         {
             const int zero = 0;
 
@@ -25,6 +25,12 @@ namespace RoadBook.CsharpBasic.Chapter03.Examples
             {
                 Console.WriteLine("세 번째 if문입니다.");
                 Console.WriteLine("zero는 1이 아니기 때문에 출력에서 제외됩니다.");
+            }
+
+            else
+            {
+                Console.WriteLine("두 번째 else문입니다.");
+                Console.WriteLine("조건절에 해당하지 않기 때문에 출력을 합니다.");
             }
         }
     }
