@@ -11,7 +11,7 @@ namespace RoadBook.CsharpBasic.Chapter06.Examples
     {
         public void Run()
         {
-            Dictionary<string, string> dict = new Dictionary<string, string>();//
+            Dictionary<string, string> dict = new Dictionary<string, string>();
             dict.Add("korea", "한국");
             dict.Add("japan", "일본");
             dict.Add("brazil", "브라질");
